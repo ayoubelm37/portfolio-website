@@ -33,17 +33,27 @@ export default function ThemeContextProvider({
   };
 
   useEffect(() => {
+    // Check localStorage and system preference
     const localTheme = window.localStorage.getItem("theme") as Theme | null;
-
+    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    
+    let initialTheme: Theme;
+    
     if (localTheme) {
-      setTheme(localTheme);
-
-      if (localTheme === "dark") {
-        document.documentElement.classList.add("dark");
-      }
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
+      initialTheme = localTheme;
+    } else if (systemPrefersDark) {
+      initialTheme = "dark";
+    } else {
+      initialTheme = "light";
+    }
+    
+    setTheme(initialTheme);
+    
+    // Apply the theme to the document
+    if (initialTheme === "dark") {
       document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
     }
   }, []);
 
