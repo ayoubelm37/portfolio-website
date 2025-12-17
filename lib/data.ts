@@ -34,23 +34,15 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
- {
-    title: "Lycée Qods",
-    location: "Chemaia",
-    description:
-      " Baccalauréat, sciences de la vie et la terre",
-    icon: React.createElement(LuGraduationCap),
-    date: "2018",
-  },
   {
-    title: "Diplômer",
-    location: "El Jadida",
-    description:
-      " Institut Spécialisé de Technologie Appliquée Cité de l'Air - El Jadida,Diplôme de Technicien Spécialisé en Développement Informatique",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019 - 2021",
-  },
-   {
+  title: "Full-Stack Developer",
+  location: "JobInTech Academy",
+  description:
+    "Completed a 6-month intensive program focused on modern web development. Gained hands-on experience with HTML, CSS, JavaScript, React, PHP, Symfony, MySQL, REST APIs, Git/GitHub, and web security. The program emphasized real-world projects, teamwork, Agile methodologies, and concluded with a full-stack capstone project applying industry best practices.",
+  icon: React.createElement(LuGraduationCap),
+  date: "Aug 2025 - Feb 2026",
+},
+    {
     title: "Front-End Developer",
     location: "Remote",
     description:
@@ -58,14 +50,32 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2023 - 2024",
   },
-  {
-    title: "Front-End Developer",
-    location: "Remote",
+   {
+    title: "Diplômer",
+    location: "El Jadida",
     description:
-      "I worked as a Front-End developer on this startup project for 5 months.a digital identity verification service that focuses on secure and efficient user authentication, particularly for businesses in regulated industries.",
-    icon: React.createElement(FaReact),
-    date: "02/8/2024 - 14/5/2025",
+      " Institut Spécialisé de Technologie Appliquée Cité de l'Air - El Jadida,Diplôme de Technicien Spécialisé en Développement Informatique",
+    icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2021",
   },
+  {
+  title: "Université Cadi Ayyad",
+  location: "Marrakech",
+  description:
+    "First year in economics.",
+  icon: React.createElement(LuGraduationCap),
+  date: "2018 - 2019",
+},
+ {
+  
+    title: "Lycée Qods",
+    location: "Chemaia",
+    description:
+      " Baccalauréat, sciences de la vie et la terre",
+    icon: React.createElement(LuGraduationCap),
+    date: "2018",
+  },
+ 
 ] as const;
 
 export const projectsData = [

@@ -23,12 +23,12 @@ export default function About() {
 
 What I love most about programming is the problem-solving side — that “aha!” moment when something finally clicks is unbeatable. My main stack includes React and Next.js, and I’m also comfortable working with TypeScript. I'm always exploring new tools and tech to stay sharp and grow as a developer.
 
-Outside of coding, you’ll find me at the gym, playing football, watching movies, or diving into topics like history and philosophy. I’m currently on the lookout for a full-time role as a front-end developer where I can keep building cool things and learning every day.
+I’m currently on the lookout for a full-time role as a front-end developer where I can keep building cool things and learning every day.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy going to the gym, playing football, watching movies, and learning about history and philosophy.{" "}
-        <span className="font-medium">learning new things</span>
+        <span className="italic">When I'm not coding</span>, I enjoy going to the gym, playing football, {" "}
+        <span className="font-medium">learning new things.</span>
       </p>
     </motion.section>
   );
