@@ -36,19 +36,19 @@ export const links = [
 export const experiencesData = [
   {
   title: "Full-Stack Developer",
-  location: "JobInTech Academy",
+  location: "Jobintech Academy",
   description:
     "Completed a 6-month intensive program focused on modern web development. Gained hands-on experience with HTML, CSS, JavaScript, React, PHP, Symfony, MySQL, REST APIs, Git/GitHub, and web security. The program emphasized real-world projects, teamwork, Agile methodologies, and concluded with a full-stack capstone project applying industry best practices.",
   icon: React.createElement(LuGraduationCap),
   date: "Aug 2025 - Feb 2026",
 },
-    {
+  {
     title: "Front-End Developer",
-    location: "Remote",
+    location: "VOVE ID (Baobab '24)",
     description:
-      "Working as a freelancer on Fiverr.",
+      "Developed front-end features for a digital identity verification service focused on secure authentication for businesses operating in regulated sectors.",
     icon: React.createElement(FaReact),
-    date: "2023 - 2024",
+    date: "Oct 2024 - Jan 2025",
   },
    {
     title: "Diplômer",
@@ -109,7 +109,14 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Node.js",
+  "Vue.js",
+  "Bootstrap",
+  "PHP",
+  "WordPress",
+  "SQL",
   "Git",
+  "GitHub",
   "Tailwind",
   "Shadcn",
   "Framer Motion",

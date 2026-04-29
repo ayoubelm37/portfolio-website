@@ -19,11 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-       Hey there! I'm a front-end developer with a background in IT development. After getting my diploma in software development, I decided to dive deeper into my passion for coding by joining a bootcamp where I focused on front-end technologies.
-
-What I love most about programming is the problem-solving side — that “aha!” moment when something finally clicks is unbeatable. My main stack includes React and Next.js, and I’m also comfortable working with TypeScript. I'm always exploring new tools and tech to stay sharp and grow as a developer.
-
-I’m currently on the lookout for a full-time role as a front-end developer where I can keep building cool things and learning every day.
+        I am a passionate junior full-stack developer interested in programming and
+        web design. I am dynamic, curious, and I continuously invest in building
+        both technical and personal skills.
+      </p>
+      <p className="mb-3">
+        I completed a specialized diploma in software development, studied economics
+        at Cadi Ayyad University, and completed full-stack training at Jobintech
+        Academy. I also worked on VOVE ID as a front-end developer.
+      </p>
+      <p className="mb-3">
+        I am currently looking for opportunities to contribute to innovative projects
+        and keep improving every day.
       </p>
 
       <p>
