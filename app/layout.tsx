@@ -22,10 +22,11 @@ export default function RootLayout({
   return (
       <html lang="en" className="!scroll-smooth">
       <body
-        className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
+        className={`${inter.className} relative bg-slate-50 pt-28 text-gray-950 sm:pt-36 dark:bg-[#0b1220] dark:text-gray-50 dark:text-opacity-90`}
       >
-        <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
-        <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
+        <div className="absolute right-[-6rem] top-[-8rem] -z-10 h-[30rem] w-[30rem] rounded-full bg-cyan-200/40 blur-[8rem] sm:w-[42rem] dark:bg-cyan-700/20" />
+        <div className="absolute left-[-12rem] top-[8rem] -z-10 h-[28rem] w-[34rem] rounded-full bg-violet-200/40 blur-[8rem] sm:w-[46rem] dark:bg-violet-700/20" />
+        <div className="absolute bottom-[-10rem] left-1/2 -z-10 h-[26rem] w-[26rem] -translate-x-1/2 rounded-full bg-fuchsia-200/20 blur-[8rem] dark:bg-fuchsia-800/10" />
 
         <ThemeContextProvider>
           <ActiveSectionContextProvider>

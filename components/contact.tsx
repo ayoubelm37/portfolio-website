@@ -15,7 +15,7 @@ export default function Contact() {
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
+      className="mb-20 w-[min(100%,44rem)] text-center sm:mb-28"
       initial={{
         opacity: 0,
       }}
@@ -31,7 +31,7 @@ export default function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
 
-      <p className="text-gray-700 -mt-6 dark:text-white/80">
+      <p className="-mt-6 text-gray-700 dark:text-white/80">
         Please contact me directly at{" "}
         <a className="underline" href="mailto:ayoubelmwin37@gmail.com">
           ayoubelmwin37@gmail.com
@@ -40,7 +40,7 @@ export default function Contact() {
       </p>
 
       <form
-        className="mt-10 flex flex-col dark:text-black"
+        className="mt-10 flex flex-col rounded-2xl border border-black/10 bg-white/80 p-5 text-left shadow-md shadow-black/[0.05] dark:border-white/10 dark:bg-white/5 dark:text-black sm:p-7"
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
 
@@ -53,7 +53,7 @@ export default function Contact() {
         }}
       >
         <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="h-14 rounded-lg border border-black/10 px-4 transition-all focus:outline-none focus:ring-2 focus:ring-cyan-400/60 dark:border-white/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100"
           name="senderEmail"
           type="email"
           required
@@ -61,7 +61,7 @@ export default function Contact() {
           placeholder="Your email"
         />
         <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="my-3 h-52 rounded-lg border border-black/10 p-4 transition-all focus:outline-none focus:ring-2 focus:ring-cyan-400/60 dark:border-white/10 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100"
           name="message"
           placeholder="Your message"
           required
